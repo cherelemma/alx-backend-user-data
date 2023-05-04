@@ -60,5 +60,4 @@ class SessionDBAuth(SessionExpAuth):
         for session in sessions_present:
             del session
             return True
-        return False
-    
+        return False    
